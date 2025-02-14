@@ -1,11 +1,12 @@
 import "react";
 import HeroSection from "../components/HeroSection";
+import ServicesOverview from "../components/ServicesOverview";
 
 const Home = () => {
     return (
         <div>
             <HeroSection />
-            {/* Other sections will go here */}
+            <ServicesOverview />
         </div>
     );
 };
