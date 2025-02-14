@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react"; // Icons
-import logo from "../assets/icons/green_scene_logo.webp"; // Import logo
+import logo from "../assets/project_images/logo.webp"; // Import logo
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);

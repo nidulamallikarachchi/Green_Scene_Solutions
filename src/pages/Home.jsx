@@ -1,2 +1,13 @@
-const Home = () => <h1 className="text-3xl text-center mt-10">Home Page</h1>;
+import "react";
+import HeroSection from "../components/HeroSection";
+
+const Home = () => {
+    return (
+        <div>
+            <HeroSection />
+            {/* Other sections will go here */}
+        </div>
+    );
+};
+
 export default Home;
