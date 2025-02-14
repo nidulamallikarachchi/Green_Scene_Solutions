@@ -1,7 +1,22 @@
-export default function App() {
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
+
+function App() {
     return (
-        <h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1>
-    )
+        <Router>
+            <Navbar />
+            <div className="pt-16"> {/* Add padding to avoid navbar overlap */}
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/services" element={<Services />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
+
+export default App;
