@@ -1,4 +1,4 @@
-import backgroundImage from '../assets/project_images/background.jpeg'; // Adjust the relative path if needed
+import backgroundImage from '../../assets/project_images/background.jpeg'; // Adjust the relative path if needed
 
 const HeroSection = () => {
     return (
