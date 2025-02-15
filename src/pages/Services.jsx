@@ -1,15 +1,15 @@
-import body_corporate_cleaning_img from "../assets/service_images/individual_page/body_corporate_cleaning_individual.jpg";
-import office_cleaning_img from "../assets/service_images/individual_page/office_cleaning_individual.jpg";
-import garden_cleaning_img from "../assets/service_images/individual_page/garden_cleaning_individual.jpg";
-import high_pressure_cleaning_img from "../assets/service_images/individual_page/high_pressure_cleaning_individual.jpg";
-import window_cleaning_img from "../assets/service_images/individual_page/window_cleaning_individual.jpg";
-import carpet_cleaning_img from "../assets/service_images/individual_page/carpet_cleaning_individual.jpg";
-import car_park from "../assets/service_images/individual_page/car_park_cleaning_individual.jpg";
-import bin_service from "../assets/service_images/individual_page/bin_cleaning_individual.jpg";
-import move_in from "../assets/service_images/individual_page/move_in_cleaning_individual.jpg";
-import end_lease from "../assets/service_images/individual_page/end_lease_cleaning_individual.jpg";
-import common_area from "../assets/service_images/individual_page/common_area_cleaning_individual.jpg";
-import industrial_cleaning from "../assets/service_images/individual_page/industrial_cleaning_individual.jpg";
+import body_corporate_cleaning_img from "../assets/service_images/individual_page/body_corporate_cleaning.jpg";
+import office_cleaning_img from "../assets/service_images/individual_page/office_cleaning.jpg";
+import garden_cleaning_img from "../assets/service_images/individual_page/garden_cleaning.jpg";
+import high_pressure_cleaning_img from "../assets/service_images/individual_page/high_pressure_cleaning.jpg";
+import window_cleaning_img from "../assets/service_images/individual_page/window_cleaning.jpg";
+import carpet_cleaning_img from "../assets/service_images/individual_page/carpet_cleaning.jpg";
+import car_park from "../assets/service_images/individual_page/car_park_cleaning.jpg";
+import bin_service from "../assets/service_images/individual_page/bin_cleaning.jpg";
+import move_in from "../assets/service_images/individual_page/move_in_cleaning.jpg";
+import end_lease from "../assets/service_images/individual_page/end_lease_cleaning.jpg";
+import common_area from "../assets/service_images/individual_page/common_area_cleaning.jpg";
+import industrial_cleaning from "../assets/service_images/individual_page/industrial_cleaning.jpg";
 
 const services = [
     {
