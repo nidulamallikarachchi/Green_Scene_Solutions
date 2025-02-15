@@ -9,13 +9,13 @@ import 'swiper/css/pagination';
 import Alliance from '../../assets/our_clients/Alliance.png';
 import BCS from '../../assets/our_clients/BCS.png';
 import BlueStone from '../../assets/our_clients/BlueStone.png';
-import BodyCorporate from '../../assets/our_clients/Body_Corporate.png';
+import BodyCorporate from '../../assets/our_clients/BodyCorporate.png';
 import MBCM from '../../assets/our_clients/MBCM.png';
 import OCVM from '../../assets/our_clients/OCVM.png';
 import Select from '../../assets/our_clients/Select.png';
-import TheKnight from '../../assets/our_clients/The_Knight.png';
-import Tideways from '../../assets/our_clients/tideways-logo-1.jpg';
-import VictoriaBody from '../../assets/our_clients/Victoria_Body.png';
+import TheKnight from '../../assets/our_clients/TheKnight.png';
+import Tideways from '../../assets/our_clients/Tideway.jpg';
+import VictoriaBody from '../../assets/our_clients/VictoriaBody.png';
 
 const clientLogos = [
     { src: Alliance, alt: 'Alliance' },
