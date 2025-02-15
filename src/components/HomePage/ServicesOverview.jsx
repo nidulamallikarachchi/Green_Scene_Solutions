@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import construction_cleaning from '../../assets/service_images/construction_cleaning.jpeg';
-import body_corporate_cleaning from '../../assets/service_images/body_corporate_cleaning.jpeg';
-import garden_cleaning from '../../assets/service_images/garden_cleaning.jpeg';
-import move_in_cleaning from '../../assets/service_images/move_in_cleaning.jpeg';
+import construction_cleaning from '../../assets/service_images/home_page/construction_cleaning.jpeg';
+import body_corporate_cleaning from '../../assets/service_images/home_page/body_corporate_cleaning.jpeg';
+import garden_cleaning from '../../assets/service_images/home_page/garden_cleaning.jpeg';
+import move_in_cleaning from '../../assets/service_images/home_page/move_in_cleaning.jpeg';
 
 const services = [
     {
