@@ -27,7 +27,7 @@ export const services = [
             "General Maintenance",
         ],
         description:
-            "Because every building is different, we tailor our services to match your property’s exact requirements...",
+            "Our team has extensive experience maintaining strata-managed properties across Melbourne. We understand the unique needs of both residents and managers, ensuring that communal spaces are always clean, welcoming, and compliant with regulations.Because every building is different, we tailor our services to match your property’s exact requirements. From routine cleaning and gardening to responding quickly to any building-related concerns, we’ll make sure your space always looks its best. Let us handle the day-to-day upkeep, so your residents can feel proud to call it home.",
         subDescription: "Keep lobbies and hallways spotless with our corporate cleaning services.",
         image: body_corporate_cleaning,
     },
@@ -45,7 +45,7 @@ export const services = [
             "Reception & Lobby Upkeep",
         ],
         description:
-            "We understand that your office’s appearance speaks volumes about your business...",
+            "We understand that your office’s appearance speaks volumes about your business. That’s why our commercial cleaning team uses a thorough checklist system to ensure every space is pristine. From polishing high-touch surfaces to maintaining pristine floors and carpets, we create a welcoming environment for employees and clients alike. Our safe, non-toxic products keep the workplace hygienic without compromising on health. With flexible scheduling and custom plans, we work around your hours to minimize disruptions and let you focus on running your business.",
         subDescription: "Maintain a clean, professional workspace with our office cleaning services.",
         image: office_cleaning,
     },
@@ -200,7 +200,7 @@ export const services = [
         ],
         description: "Common areas are the heart of any property—where residents, visitors, and staff often gather. Our cleaning approach ensures these spaces always present a fresh, welcoming atmosphere. We vacuum, mop, disinfect, and organize to keep corridors, lobbies, and shared amenities in top condition. No clutter, no odors—just a comfortable space everyone can enjoy. With routine schedules or on-demand cleanings, we make sure your common areas remain spotless and well-maintained at all times.",
         subDescription: "Keep hallways, lounges, and shared spaces clean and well-maintained at all times.",
-        Image: common_area_cleaning,
+        image: common_area_cleaning,
     },
     {
         id: "industrial-cleaning",
