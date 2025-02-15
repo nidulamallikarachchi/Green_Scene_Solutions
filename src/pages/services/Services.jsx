@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import {services} from "../components/ServicesData.jsx";
+import {services} from "../../utilities/ServicesData.jsx";
 
 const Services = () => {
     return (

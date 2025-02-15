@@ -1,7 +1,7 @@
 // src/pages/ServiceDetails.jsx
 
 import { useParams } from "react-router-dom";
-import { services } from "../components/servicesData";
+import { services } from "../../utilities/ServicesData.jsx";
 
 const ServiceDetails = () => {
     const { id } = useParams();
