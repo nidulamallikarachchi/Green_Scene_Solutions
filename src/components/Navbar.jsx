@@ -6,6 +6,10 @@ import logo from "../assets/project_images/logo.webp"; // Import logo
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
+    const handlePhoneClick = () => {
+        window.location.href = "tel:+6134567890";
+    };
+
     return (
         <nav className="bg-white shadow-md fixed w-full top-0 left-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,22 +25,31 @@ const Navbar = () => {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-8 items-center">
-                        <Link to="/" className="text-gray-700 hover:text-blue-600">
+                        <Link
+                            to="/"
+                            className="text-gray-700 font-semibold hover:text-green-600 transition-colors duration-300 ease-in-out"
+                        >
                             Home
                         </Link>
-                        <Link to="/services" className="text-gray-700 hover:text-blue-600">
+                        <Link
+                            to="/services"
+                            className="text-gray-700 font-semibold hover:text-green-600 transition-colors duration-300 ease-in-out"
+                        >
                             Services
                         </Link>
-                        <Link to="/contact" className="text-gray-700 hover:text-blue-600">
+                        <Link
+                            to="/contact"
+                            className="text-gray-700 font-semibold hover:text-green-600 transition-colors duration-300 ease-in-out"
+                        >
                             Contact
                         </Link>
-                        <a
-                            href="tel:+6134567890"
-                            className="flex items-center text-gray-700 hover:text-blue-600"
+                        <button
+                            onClick={handlePhoneClick}
+                            className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
                         >
                             <Phone size={18} className="mr-1" />
                             +61 3 4567 890
-                        </a>
+                        </button>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -59,29 +72,32 @@ const Navbar = () => {
                     </button>
                     <Link
                         to="/"
-                        className="hover:text-blue-400 text-2xl"
+                        className="hover:text-green-400 text-2xl font-semibold transition-colors duration-300 ease-in-out"
                         onClick={() => setIsOpen(false)}
                     >
                         Home
                     </Link>
                     <Link
                         to="/services"
-                        className="hover:text-blue-400 text-2xl"
+                        className="hover:text-green-400 text-2xl font-semibold transition-colors duration-300 ease-in-out"
                         onClick={() => setIsOpen(false)}
                     >
                         Services
                     </Link>
                     <Link
                         to="/contact"
-                        className="hover:text-blue-400 text-2xl"
+                        className="hover:text-green-400 text-2xl font-semibold transition-colors duration-300 ease-in-out"
                         onClick={() => setIsOpen(false)}
                     >
                         Contact
                     </Link>
-                    <a href="tel:+6134567890" className="flex items-center text-2xl">
+                    <button
+                        onClick={handlePhoneClick}
+                        className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
+                    >
                         <Phone size={24} className="mr-2" />
                         +61 3 4567 890
-                    </a>
+                    </button>
                 </div>
             )}
         </nav>
