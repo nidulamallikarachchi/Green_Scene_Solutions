@@ -5,31 +5,31 @@ import 'swiper/css/autoplay';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Star } from 'lucide-react';
 
-// Sample testimonials data
+// Sample testimonials data with company names (without images)
 const testimonials = [
     {
         name: "John Doe",
+        company: "ABC Cleaning Services",
         review: "Absolutely fantastic service! Highly professional and efficient.",
-        rating: 5,
-        image: "https://randomuser.me/api/portraits/men/1.jpg"
+        rating: 5
     },
     {
         name: "Sarah Smith",
+        company: "Green Home Solutions",
         review: "The team was very punctual and exceeded my expectations!",
-        rating: 4,
-        image: "https://randomuser.me/api/portraits/women/2.jpg"
+        rating: 4
     },
     {
         name: "Michael Brown",
+        company: "Sparkle Commercial Cleaners",
         review: "Great attention to detail. Will definitely use their services again!",
-        rating: 5,
-        image: "https://randomuser.me/api/portraits/men/3.jpg"
+        rating: 5
     },
     {
         name: "Emma Wilson",
+        company: "Eco-Friendly Cleaning Co.",
         review: "Affordable and high-quality service. Highly recommend!",
-        rating: 4,
-        image: "https://randomuser.me/api/portraits/women/4.jpg"
+        rating: 4
     }
 ];
 
@@ -39,7 +39,7 @@ const Testimonials = () => {
             <div className="container mx-auto px-4 text-center">
                 <h2 className="text-3xl font-bold mb-8">What Our Clients Say About Us</h2>
 
-                <div className="relative overflow-visible "> {/* Allows hover effect to expand properly */}
+                <div className="relative overflow-visible h-[250px]"> {/* Adjusts Swiper height */}
                     <Swiper
                         modules={[Pagination, Autoplay]}
                         spaceBetween={20}
@@ -51,28 +51,29 @@ const Testimonials = () => {
                         pagination={{ clickable: true }}
                         autoplay={{ delay: 3000, disableOnInteraction: false }}
                         loop={true}
-                        className="pb-14"
+                        className="h-full pb-14"
                         style={{ paddingBottom: '40px' }}
                     >
                         {testimonials.map((testimonial, index) => (
                             <SwiperSlide key={index} className="relative flex items-center justify-center">
-                                <div className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center transition-transform transform hover:scale-105 min-h-[250px] relative">
-                                    <img src={testimonial.image} alt={testimonial.name} className="w-16 h-16 rounded-full mb-4" />
+                                <div className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center min-h-[200px] relative">
                                     <p className="text-gray-600 italic mb-3">"{testimonial.review}"</p>
 
-                                    {/* Star Rating with No Outline */}
+                                    {/* Star Rating */}
                                     <div className="flex mb-3">
                                         {Array.from({ length: 5 }, (_, i) => (
                                             <Star
                                                 key={i}
                                                 className="w-5 h-5"
                                                 fill={i < testimonial.rating ? "#facc15" : "#d1d5db"}
-                                                stroke="none" // Removes the outline
+                                                stroke="none"
                                             />
                                         ))}
                                     </div>
 
+                                    {/* Name and Company */}
                                     <h4 className="text-lg font-semibold">{testimonial.name}</h4>
+                                    <p className="text-sm text-gray-500">{testimonial.company}</p>
                                 </div>
                             </SwiperSlide>
                         ))}
