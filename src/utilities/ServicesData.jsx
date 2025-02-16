@@ -14,19 +14,19 @@ import industrial_cleaning from "../assets/service_images/individual_page/indust
 import construction_cleaning from "../assets/service_images/individual_page/construction_cleaning.jpg";
 
 //Icons
-import body_corporate_cleaning_icon from "../assets/service_images/icons/body_corporate_cleaning_icon.png";
-import office_cleaning_icon from "../assets/service_images/icons/office_cleaning_icon.png";
-import garden_cleaning_icon from "../assets/service_images/icons/garden_cleaning_icon.png";
-import carpet_cleaning_icon from "../assets/service_images/icons/carpet_cleaning_icon.png";
-import window_cleaning_icon from "../assets/service_images/icons/window_cleaning_icon.png";
-import high_pressure_cleaning_icon from "../assets/service_images/icons/high_pressure_cleaning_icon.png";
-import car_park_cleaning_icon from "../assets/service_images/icons/car_park_cleaning_icon.png";
-import bin_services_icon from "../assets/service_images/icons/bin_cleaning_icon.jpg";
-import move_in_services_icon from "../assets/service_images/icons/move_in_cleaning_icon.png";
-import end_lease_cleaning_icon from "../assets/service_images/icons/end_lease_cleaning_icon.png";
-import common_area_cleaning_icon from "../assets/service_images/icons/common_area_cleaning_icon.png";
-import industrial_cleaning_icon from "../assets/service_images/icons/industrial_cleaning_icon.png";
-import construction_cleaning_icon from "../assets/service_images/icons/construction_cleaning_icon.png";
+import body_corporate_cleaning_icon from "../assets/service_images/icons/body_corporate_cleaning_icon.svg";
+import office_cleaning_icon from "../assets/service_images/icons/office_cleaning_icon.svg";
+import garden_cleaning_icon from "../assets/service_images/icons/garden_cleaning_icon.svg";
+import carpet_cleaning_icon from "../assets/service_images/icons/carpet_cleaning_icon.svg";
+import window_cleaning_icon from "../assets/service_images/icons/window_cleaning_icon.svg";
+import high_pressure_cleaning_icon from "../assets/service_images/icons/high_pressure_cleaning_icon.svg";
+import car_park_cleaning_icon from "../assets/service_images/icons/car_park_cleaning_icon.svg";
+import bin_services_icon from "../assets/service_images/icons/bin_cleaning_icon.svg";
+import move_in_services_icon from "../assets/service_images/icons/move_in_cleaning_icon.svg";
+import end_lease_cleaning_icon from "../assets/service_images/icons/end_lease_cleaning_icon.svg";
+import common_area_cleaning_icon from "../assets/service_images/icons/common_area_cleaning_icon.svg";
+import industrial_cleaning_icon from "../assets/service_images/icons/industrial_cleaning_icon.svg";
+import construction_cleaning_icon from "../assets/service_images/icons/construction_cleaning_icon.svg";
 
 export const services = [
     {

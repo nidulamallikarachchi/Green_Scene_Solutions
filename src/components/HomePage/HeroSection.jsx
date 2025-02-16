@@ -3,7 +3,7 @@ import backgroundImage from '../../assets/project_images/background.jpeg'; // Ad
 const HeroSection = () => {
     return (
         <section
-            className="relative h-screen bg-cover bg-center flex items-center justify-center text-white text-center"
+            className="relative h-[550px] bg-cover bg-center flex items-center justify-center text-white text-center"
             style={{ backgroundImage: `url(${backgroundImage})` }} // Use the imported image here
         >
             {/* Overlay for better readability */}
