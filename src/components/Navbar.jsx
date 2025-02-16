@@ -13,6 +13,15 @@ const Navbar = () => {
         window.location.href = "tel:+6145455034";
     };
 
+    // Separate cleaning and other services based on service title (customize the categorization)
+    const cleaningServices = services.filter(service =>
+        service.title.toLowerCase().includes("cleaning")
+    );
+
+    const otherServices = services.filter(service =>
+        !service.title.toLowerCase().includes("cleaning")
+    );
+
     // Close dropdown if clicked outside
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -26,15 +35,6 @@ const Navbar = () => {
             document.removeEventListener("mousedown", handleClickOutside);
         };
     }, []);
-
-    // Separate cleaning and other services based on service title (customize the categorization)
-    const cleaningServices = services.filter(service =>
-        service.title.toLowerCase().includes("cleaning")
-    );
-
-    const otherServices = services.filter(service =>
-        !service.title.toLowerCase().includes("cleaning")
-    );
 
     return (
         <nav className="bg-white shadow-md fixed w-full top-0 left-0 z-50">
@@ -58,15 +58,21 @@ const Navbar = () => {
                             Home
                         </Link>
 
-                        {/* Services with Dropdown */}
-                        <div className="relative" ref={dropdownRef}>
-                            <button
-                                onClick={() => setIsDropdownOpen(!isDropdownOpen)} // Toggle dropdown
+                        {/* Services with Hover Dropdown */}
+                        <div
+                            className="relative"
+                            onMouseEnter={() => setIsDropdownOpen(true)} // Show dropdown on hover
+                            onMouseLeave={() => setIsDropdownOpen(false)} // Hide dropdown when mouse leaves
+                            ref={dropdownRef}
+                        >
+                            <Link
+                                to="/services"
                                 className="text-gray-700 font-semibold hover:text-green-600 transition-colors duration-300 ease-in-out flex items-center"
+                                onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
                             >
                                 Services
                                 <ChevronDown size={16} className="ml-1" /> {/* Chevron icon for dropdown */}
-                            </button>
+                            </Link>
 
                             {/* Dropdown Menu */}
                             {isDropdownOpen && (
