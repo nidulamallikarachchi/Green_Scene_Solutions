@@ -5,11 +5,14 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Services from "./pages/services/Services.jsx";
 import ServiceDetails from "./pages/services/ServiceDetails.jsx";
+import ScrollToTop from "./utilities/ScrollToTop.jsx";
+
 
 function App() {
     return (
         <Router>
             <Navbar />
+            <ScrollToTop />
             <div className="pt-16"> {/* Add padding to avoid navbar overlap */}
                 <Routes>
                     <Route path="/" element={<Home />} />
