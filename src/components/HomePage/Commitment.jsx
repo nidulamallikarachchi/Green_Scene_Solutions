@@ -9,6 +9,7 @@ const CommitmentSection = () => {
                     Our Commitment to Excellence
                     <span className="block w-24 h-1 bg-green-500 mx-auto mt-2 rounded-full"></span>
                 </h1>
+
                 <p className="text-xl text-gray-600 mb-10">
                     At Green Scene, we blend quality with affordability. Our expert team uses advanced techniques and eco-friendly products to deliver spotless results you can rely on.
                 </p>
