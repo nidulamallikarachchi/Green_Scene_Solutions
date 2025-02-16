@@ -39,7 +39,7 @@ export const services = [
             "Office Desks & Workstations",
             "Meeting & Conference Rooms",
             "Common Areas & Kitchens",
-            "Restroom Sanitation",
+            "Restroom Sanitization",
             "Touch-point Disinfection",
             "Floor & Carpet Care",
             "Reception & Lobby Upkeep",
