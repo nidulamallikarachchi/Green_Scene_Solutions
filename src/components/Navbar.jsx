@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const handlePhoneClick = () => {
-        window.location.href = "tel:+6134567890";
+        window.location.href = "tel:+6145455034";
     };
 
     return (
@@ -48,7 +48,7 @@ const Navbar = () => {
                             className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
                         >
                             <Phone size={18} className="mr-1" />
-                            +61 3 4567 890
+                            +61 454 550 34
                         </button>
                     </div>
 
@@ -96,7 +96,7 @@ const Navbar = () => {
                         className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
                     >
                         <Phone size={24} className="mr-2" />
-                        +61 3 4567 890
+                        +61 454 550 34
                     </button>
                 </div>
             )}

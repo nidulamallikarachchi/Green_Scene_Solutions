@@ -1,4 +1,4 @@
-import  { useRef } from "react";
+import {useRef} from "react";
 import emailjs from "emailjs-com";
 import OurClients from "../components/HomePage/OurClients.jsx";
 
@@ -24,7 +24,7 @@ const Contact = () => {
 
     return (
         <div className={"bg-gray-100 "}>
-            <div className="bg-gray-100 py-16 px-4">
+            <div className="bg-gray-100 py-6 px-4">
                 <div className="container mx-auto max-w-3xl bg-white shadow-lg rounded-lg p-8">
                     <h1 className="text-4xl font-bold  text-center">Contact Us</h1>
                     <p className="mt-4 text-lg text-gray-700 text-center">
@@ -78,9 +78,10 @@ const Contact = () => {
                         </button>
                     </form>
                 </div>
-
             </div>
+
             <OurClients/>
+
         </div>
     );
 };
