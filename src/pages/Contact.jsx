@@ -71,6 +71,13 @@ const Contact = () => {
                             required
                         />
                     </div>
+                    <input
+                        type="text"
+                        name="subject"
+                        placeholder="Required Service"
+                        className="w-full p-4 bg-gray-100 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 transition"
+                        required
+                    />
                     <textarea
                         name="message"
                         placeholder="Your Message"
