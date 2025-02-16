@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Services from "./pages/services/Services.jsx";
 import ServiceDetails from "./pages/services/ServiceDetails.jsx";
 import ScrollToTop from "./utilities/ScrollToTop.jsx";
+import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/services/:id" element={<ServiceDetails />} />
+                    <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 </Routes>
             </div>
             <Footer/>
