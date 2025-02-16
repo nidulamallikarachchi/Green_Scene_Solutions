@@ -21,7 +21,7 @@ import carpet_cleaning_icon from "../assets/service_images/icons/carpet_cleaning
 import window_cleaning_icon from "../assets/service_images/icons/window_cleaning_icon.png";
 import high_pressure_cleaning_icon from "../assets/service_images/icons/high_pressure_cleaning_icon.png";
 import car_park_cleaning_icon from "../assets/service_images/icons/car_park_cleaning_icon.png";
-import bin_services_icon from "../assets/service_images/icons/bin_cleaning_icon.png";
+import bin_services_icon from "../assets/service_images/icons/bin_cleaning_icon.jpg";
 import move_in_services_icon from "../assets/service_images/icons/move_in_cleaning_icon.png";
 import end_lease_cleaning_icon from "../assets/service_images/icons/end_lease_cleaning_icon.png";
 import common_area_cleaning_icon from "../assets/service_images/icons/common_area_cleaning_icon.png";
