@@ -1,0 +1,6 @@
+To-Do:
+* Make Services Grid for Home Page
+* Panoramic Images for the Hero Section
+* Drop Down for the Navbar
+* Change Affordability in Our Commitment to Excellence into something else.
+* Add "Customer Types We Serve" to the Home Page

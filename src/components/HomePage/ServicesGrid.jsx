@@ -3,7 +3,7 @@ import { services } from "../../utilities/ServicesData.jsx";
 
 const ServicesGrid = () => {
     return (
-        <div className="max-w-7xl mx-auto px-6 py-12">
+        <div className="mx-auto px-6 py-12 bg-gray-100">
             {/* Heading */}
             <h1 className="text-4xl font-bold text-center text-gray-800 mb-10 relative">
                 Our Services
