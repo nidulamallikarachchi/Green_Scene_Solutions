@@ -35,9 +35,13 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <section className="py-16 bg-white">
+        <section className="py-10 bg-white">
             <div className="container mx-auto px-4 text-center">
-                <h2 className="text-3xl font-bold mb-8">What Our Clients Say About Us</h2>
+                {/* Heading */}
+                <h1 className="text-4xl font-bold text-center text-gray-800 mb-10 relative">
+                    What Our Clients Say About Us
+                    <span className="block w-24 h-1 bg-green-500 mx-auto mt-2 rounded-full"></span>
+                </h1>
 
                 <div className="relative overflow-visible h-[250px]"> {/* Adjusts Swiper height */}
                     <Swiper

@@ -4,9 +4,13 @@ import { Star, Leaf, DollarSign } from 'lucide-react';
 
 const WhyChooseUs = () => {
     return (
-        <section className="py-16 bg-gray-100">
+        <section className="py-10 bg-gray-100">
             <div className="container mx-auto px-4 text-center">
-                <h2 className="text-3xl font-bold mb-8">Why Choose Us?</h2>
+                {/* Heading */}
+                <h1 className="text-4xl font-bold text-center text-gray-800 mb-10 relative">
+                    Why Choose Us
+                    <span className="block w-24 h-1 bg-green-500 mx-auto mt-2 rounded-full"></span>
+                </h1>
                 <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
                     {/* Experienced Professionals */}
                     <div className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center transition-transform transform hover:scale-105">

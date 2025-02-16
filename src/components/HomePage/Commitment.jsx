@@ -2,16 +2,20 @@ import { CheckCircle, DollarSign, Clock } from 'lucide-react';
 
 const CommitmentSection = () => {
     return (
-        <section className="py-16 bg-green-50">
+        <section className="py-10 bg-white">
             <div className="container mx-auto px-4 text-center">
-                <h2 className="text-3xl font-bold text-green-800 mb-6">Our Commitment to Excellence</h2>
+                {/* Heading */}
+                <h1 className="text-4xl font-bold text-center text-gray-800 mb-10 relative">
+                    Our Commitment to Excellence
+                    <span className="block w-24 h-1 bg-green-500 mx-auto mt-2 rounded-full"></span>
+                </h1>
                 <p className="text-xl text-gray-600 mb-10">
                     At Green Scene, we blend quality with affordability. Our expert team uses advanced techniques and eco-friendly products to deliver spotless results you can rely on.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
                     {/* Quality Card */}
-                    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-blue-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <div className="mb-4 text-blue-600">
                             <CheckCircle className="w-8 h-8 mx-auto" />
                         </div>
@@ -22,7 +26,7 @@ const CommitmentSection = () => {
                     </div>
 
                     {/* Affordability Card */}
-                    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-green-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <div className="mb-4 text-green-500">
                             <DollarSign className="w-8 h-8 mx-auto" />
                         </div>
@@ -33,7 +37,7 @@ const CommitmentSection = () => {
                     </div>
 
                     {/* Reliability Card */}
-                    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="bg-yellow-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                         <div className="mb-4 text-yellow-500">
                             <Clock className="w-8 h-8 mx-auto" />
                         </div>

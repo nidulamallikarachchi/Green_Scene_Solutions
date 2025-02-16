@@ -32,9 +32,13 @@ const clientLogos = [
 
 const OurClients = () => {
     return (
-        <section className="py-6 bg-gray-100">
+        <section className="py-10 bg-gray-100">
             <div className="container mx-auto px-4 text-center">
-                <h2 className="text-3xl font-bold mb-8">Our Valued Clients</h2>
+                {/* Heading */}
+                <h1 className="text-4xl font-bold text-center text-gray-800 mb-10 relative">
+                    Our Valued Clients
+                    <span className="block w-24 h-1 bg-green-500 mx-auto mt-2 rounded-full"></span>
+                </h1>
 
                 <div className="relative overflow-visible h-[250px]">
                     <Swiper
