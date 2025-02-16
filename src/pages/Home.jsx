@@ -5,14 +5,16 @@ import Testimonial from "../components/HomePage/Testimonial.jsx";
 import Commitment from "../components/HomePage/Commitment.jsx";
 import OurClients from "../components/HomePage/OurClients.jsx"
 import ServicesGrid from "../components/HomePage/ServicesGrid.jsx";
+import CustomerTypes from "../components/HomePage/CustomerTypes.jsx";
 
 const Home = () => {
     return (
         <div>
             <HeroSection />
             <WhyChooseUs />
-            <Testimonial />
+            <CustomerTypes/>
             <ServicesGrid/>
+            <Testimonial />
             <OurClients/>
             <Commitment/>
         </div>
