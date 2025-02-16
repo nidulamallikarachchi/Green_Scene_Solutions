@@ -10,6 +10,7 @@ import move_in_services from "../assets/service_images/individual_page/move_in_c
 import end_lease_cleaning from "../assets/service_images/individual_page/end_lease_cleaning.jpg";
 import common_area_cleaning from "../assets/service_images/individual_page/common_area_cleaning.jpg";
 import industrial_cleaning from "../assets/service_images/individual_page/industrial_cleaning.jpg";
+import construction_cleaning from "../assets/service_images/individual_page/construction_cleaning.jpg";
 
 export const services = [
     {
@@ -218,5 +219,22 @@ export const services = [
         description: "Industrial spaces require rigorous, specialized cleaning strategies. Our team is trained to handle heavy machinery, warehouses, and large-scale facilities while adhering to strict safety standards. We remove built-up dust, grease, and debris to create a safer workplace that minimizes hazards and maximizes efficiency. From scheduled cleanings to urgent spill response, we’ve got your operations covered. Keep your industrial environment organized, clean, and ready for business with our all-inclusive service packages.",
         subDescription: "Specialized industrial cleaning for factories, warehouses, and heavy-duty areas.",
         image: industrial_cleaning,
+    },
+    {
+        id: "construction-cleaning",
+        title: "Construction Cleaning",
+        subtitle: "Prepare Your Site for the Next Phase",
+        services: [
+            "Post-Construction Debris Removal",
+            "Dust & Fine Particle Cleanup",
+            "Paint & Residue Scrubbing",
+            "Floor Scrubbing & Polishing",
+            "High-Pressure Washing",
+            "Safe & Compliant Disposal",
+            "Final Touches for Inspections",
+        ],
+        description: "After the builders finish, the site is often covered in dust, debris, and leftover materials. We specialize in post-construction cleaning to make sure your space is ready for inspection or occupation. From removing plaster dust to high-pressure washing exterior surfaces, we apply proven methods and the right equipment to get the job done thoroughly. Safety and compliance are always top priorities. Let us handle the final cleanup so you can focus on what comes next—be it showing the property, staging, or moving in.",
+        subDescription: "We provide thorough post-construction cleaning, removing debris, dust, and ensuring a spotless, ready-to-occupy space.",
+        image: construction_cleaning,
     }
 ];
