@@ -6,6 +6,7 @@ import Commitment from "../components/HomePage/Commitment.jsx";
 import OurClients from "../components/HomePage/OurClients.jsx"
 import ServicesGrid from "../components/HomePage/ServicesGrid.jsx";
 import CustomerTypes from "../components/HomePage/CustomerTypes.jsx";
+import WhatsappButton from "../utilities/WhatsappButton.jsx";
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Testimonial />
             <OurClients/>
             <Commitment/>
+            <WhatsappButton/>
         </div>
     );
 };
