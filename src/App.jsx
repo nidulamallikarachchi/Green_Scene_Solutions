@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
+import FooterNew from "./components/FooterNew";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -23,7 +24,7 @@ function App() {
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 </Routes>
             </div>
-            <Footer/>
+            <FooterNew/>
         </Router>
     );
 }

@@ -87,7 +87,6 @@ const Contact = () => {
                 </form>
             </div>
 
-            {/* Clients Section */}
             <OurClients />
         </div>
     );
