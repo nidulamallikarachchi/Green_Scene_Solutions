@@ -1,19 +1,19 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, Phone, ChevronDown } from "lucide-react"; // Added ChevronDown icon for dropdown
-import logo from "../assets/project_images/logo.webp"; // Import logo
-import { services } from "../utilities/ServicesData.jsx"; // Assuming your services are in this file
+import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import logo from "../assets/project_images/logo.webp";
+import { services } from "../utilities/ServicesData.jsx";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false); // New state for dropdown menu
-    const dropdownRef = useRef(null); // Reference for dropdown menu
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [timeoutId, setTimeoutId] = useState(null); // To store the timeout ID
+    const dropdownRef = useRef(null);
 
     const handlePhoneClick = () => {
         window.location.href = "tel:+6145455034";
     };
 
-    // Separate cleaning and other services based on service title (customize the categorization)
     const cleaningServices = services.filter(service =>
         service.title.toLowerCase().includes("cleaning")
     );
@@ -36,11 +36,25 @@ const Navbar = () => {
         };
     }, []);
 
+    const handleMouseEnter = () => {
+        if (timeoutId) {
+            clearTimeout(timeoutId); // Clear any existing timeout if the user hovers back quickly
+        }
+        setIsDropdownOpen(true); // Show dropdown immediately
+    };
+
+    const handleMouseLeave = () => {
+        // Delay hiding the dropdown by 200ms to avoid it disappearing too quickly
+        const newTimeoutId = setTimeout(() => {
+            setIsDropdownOpen(false);
+        }, 200);
+        setTimeoutId(newTimeoutId);
+    };
+
     return (
         <nav className="bg-white shadow-md fixed w-full top-0 left-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
-                    {/* Logo & Name */}
                     <div className="flex items-center">
                         <img src={logo} alt="Logo" className="h-10 w-10 mr-2" />
                         <Link to="/" className="text-2xl font-bold">
@@ -49,7 +63,6 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-8 items-center">
                         <Link
                             to="/"
@@ -58,26 +71,23 @@ const Navbar = () => {
                             Home
                         </Link>
 
-                        {/* Services with Hover Dropdown */}
                         <div
                             className="relative"
-                            onMouseEnter={() => setIsDropdownOpen(true)} // Show dropdown on hover
-                            onMouseLeave={() => setIsDropdownOpen(false)} // Hide dropdown when mouse leaves
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
                             ref={dropdownRef}
                         >
                             <Link
                                 to="/services"
                                 className="text-gray-700 font-semibold hover:text-green-600 transition-colors duration-300 ease-in-out flex items-center"
-                                onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
+                                onClick={() => setIsDropdownOpen(false)}
                             >
                                 Services
-                                <ChevronDown size={16} className="ml-1" /> {/* Chevron icon for dropdown */}
+                                <ChevronDown size={16} className="ml-1" />
                             </Link>
 
-                            {/* Dropdown Menu */}
                             {isDropdownOpen && (
                                 <div className="absolute left-0 mt-2 bg-white shadow-lg rounded-md text-gray-700 w-[400px] flex">
-                                    {/* Cleaning Services Section */}
                                     <div className="px-4 py-2 flex-1">
                                         <h3 className="font-semibold text-green-600 mb-2">Cleaning Services</h3>
                                         {cleaningServices.map((service) => (
@@ -85,14 +95,13 @@ const Navbar = () => {
                                                 key={service.id}
                                                 to={`/services/${service.id}`}
                                                 className="block px-4 py-2 hover:bg-green-100 transition-colors"
-                                                onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
+                                                onClick={() => setIsDropdownOpen(false)}
                                             >
                                                 {service.title}
                                             </Link>
                                         ))}
                                     </div>
 
-                                    {/* Other Services Section */}
                                     <div className="px-4 py-2 flex-1">
                                         <h3 className="font-semibold text-green-600 mb-2">Other Services</h3>
                                         {otherServices.map((service) => (
@@ -100,7 +109,7 @@ const Navbar = () => {
                                                 key={service.id}
                                                 to={`/services/${service.id}`}
                                                 className="block px-4 py-2 hover:bg-green-100 transition-colors"
-                                                onClick={() => setIsDropdownOpen(false)} // Close dropdown on click
+                                                onClick={() => setIsDropdownOpen(false)}
                                             >
                                                 {service.title}
                                             </Link>
@@ -125,7 +134,6 @@ const Navbar = () => {
                         </button>
                     </div>
 
-                    {/* Mobile Menu Button */}
                     <div className="md:hidden flex items-center">
                         <button onClick={() => setIsOpen(true)} className="text-gray-700">
                             <Menu size={28} />
@@ -134,7 +142,6 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* Full-Screen Mobile Menu */}
             {isOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center text-white text-lg space-y-6 z-50">
                     <button
