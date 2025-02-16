@@ -1,9 +1,11 @@
 import { useParams } from "react-router-dom";
 import { services } from "../../utilities/ServicesData.jsx";
 import { HiCheckCircle } from "react-icons/hi";
+import { useNavigate } from "react-router-dom";
 
 const ServiceDetails = () => {
     const { id } = useParams();
+    const navigate = useNavigate();
     const service = services.find((s) => s.id === id);
 
     if (!service) {
@@ -57,6 +59,16 @@ const ServiceDetails = () => {
                         {service.description}
                     </p>
                 </div>
+            </div>
+
+            {/* Contact Us Button */}
+            <div className="text-center pb-12">
+                <button
+                    onClick={() => navigate("/contact")}
+                    className="bg-green-600 text-white text-lg font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-green-700 transition duration-300"
+                >
+                    Contact Us
+                </button>
             </div>
         </div>
     );
