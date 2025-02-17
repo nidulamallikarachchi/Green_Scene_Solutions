@@ -23,3 +23,4 @@ TODO:
                         -- Link -- https://accenthomecare.org.au/
                         -- Link -- https://www.agedcareguide.com.au/accent-home-care
 
+* Add "Customer Types We Serve" -- Add Strata Cleaning Services
