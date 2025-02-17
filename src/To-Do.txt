@@ -4,3 +4,22 @@ To-Do:
 * Drop Down for the Navbar
 * Change Affordability in Our Commitment to Excellence into something else.
 * Add "Customer Types We Serve" to the Home Page
+
+
+TODO:
+* Add slider to home page
+* Add Home Care Services to
+                        -- Services Page
+                        -- Home Page Grid
+                        -- Navbar
+                        -- Footer
+                        -- Client Carousel -- Icon
+
+* Context to Home Care Services
+                  * Home Care Services Page
+                        --Gardening and landscaping
+                        -- General Home Cleaning
+                        -- We are affilicated with a company that provides home care services
+                        -- Link -- https://accenthomecare.org.au/
+                        -- Link -- https://www.agedcareguide.com.au/accent-home-care
+
