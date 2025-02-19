@@ -62,7 +62,7 @@ const PrivacyPolicy = () => {
                 <p>
                     <strong>Phone:</strong>{" "}
                     <a href="tel:045455034" className="text-blue-500 hover:underline">
-                        045 455 034
+                        +61 45 455 034
                     </a>
                 </p>
             </div>

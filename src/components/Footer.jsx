@@ -62,7 +62,7 @@ const Footer = () => {
                 {/* Contact Us Section */}
                 <div>
                     <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-                    <p>Phone: <a href="tel:+045455034" className="hover:underline">045 455 034</a></p>
+                    <p>Phone: <a href="tel:+6145455034" className="hover:underline">+61 45 455 034</a></p>
                     <p>Email: <a href="mailto:service.greenscene@outlook.com" className="hover:underline">service.greenscene@outlook.com</a></p>
                     <div className="flex space-x-4 mt-4">
                         <a href="https://facebook.com" className="hover:text-blue-600">
