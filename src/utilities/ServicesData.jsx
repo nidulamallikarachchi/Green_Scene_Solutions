@@ -227,7 +227,7 @@ export const services = [
             "Waste & Bin Management",
             "Dusting & Surface Wipe-Downs"
         ],
-        description: "Common areas are the heart of any property—where residents, visitors, and staff often gather. Our cleaning approach ensures these spaces always present a fresh, welcoming atmosphere. We vacuum, mop, disinfect, and organize to keep corridors, lobbies, and shared amenities in top condition. No clutter, no odors—just a comfortable space everyone can enjoy. With routine schedules or on-demand cleanings, we make sure your common areas remain spotless and well-maintained at all times.",
+        description: "Common areas are the heart of any property—where residents, visitors, and staff often gather. Our cleaning approach ensures these spaces always present a fresh, welcoming atmosphere. \n\n We vacuum, mop, disinfect, and organize to keep corridors, lobbies, and shared amenities in top condition. No clutter, no odors—just a comfortable space everyone can enjoy. With routine schedules or on-demand cleanings, we make sure your common areas remain spotless and well-maintained at all times.",
         subDescription: "Keep hallways, lounges, and shared spaces clean and well-maintained at all times.",
         image: common_area_cleaning,
         icon: common_area_cleaning_icon,

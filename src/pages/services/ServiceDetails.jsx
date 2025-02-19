@@ -55,9 +55,11 @@ const ServiceDetails = () => {
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4">
                         About This Service
                     </h2>
-                    <p className="text-gray-700 text-lg leading-relaxed">
-                        {service.description}
-                    </p>
+                    {service.description.split("\n").map((paragraph, index) => (
+                        <p key={index} className="text-gray-700 text-lg leading-relaxed mb-4">
+                            {paragraph}
+                        </p>
+                    ))}
                 </div>
             </div>
 
