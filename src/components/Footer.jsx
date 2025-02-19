@@ -79,14 +79,26 @@ const Footer = () => {
             </div>
 
             {/* Footer Bottom */}
-            <div className="border-t border-gray-600 mt-6 pt-4 flex justify-between items-center">
-                <div className="text-sm">
-                    <Link to="/privacy-policy" className="hover:underline mr-4">Privacy Policy</Link>
-                    <Link to="/services" className="hover:underline mr-4">Services</Link>
-                    <Link to="/contact" className="hover:underline">Contact Us</Link>
+            <div className="border-t border-gray-600 mt-6 pt-4 flex flex-col md:flex-row md:items-center md:justify-between">
+                {/* Left section (links) */}
+                <div className="flex flex-col md:flex-row text-sm space-y-2 md:space-y-0 md:space-x-4">
+                    <Link to="/privacy-policy" className="hover:underline">
+                        Privacy Policy
+                    </Link>
+                    <Link to="/services" className="hover:underline">
+                        Services
+                    </Link>
+                    <Link to="/contact" className="hover:underline">
+                        Contact Us
+                    </Link>
                 </div>
-                <div className="text-sm">© 2025 Green Scene Property Maintenance. All rights reserved.</div>
+
+                {/* Right section (copyright) */}
+                <div className="text-sm mt-4 md:mt-0 text-center md:text-right">
+                    © 2025 Green Scene Property Maintenance. All rights reserved.
+                </div>
             </div>
+
         </footer>
     );
 };
