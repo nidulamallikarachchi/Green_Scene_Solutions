@@ -129,14 +129,14 @@ const Navbar = () => {
                             onClick={handlePhoneClick}
                             className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
                         >
-                            <Phone size={18} className="mr-1" />
-                            +61 454 550 34
+                            <Phone size={18} className="mr-1"/>
+                            +61 425 373 343
                         </button>
                     </div>
 
                     <div className="md:hidden flex items-center">
                         <button onClick={() => setIsOpen(true)} className="text-gray-700">
-                            <Menu size={28} />
+                            <Menu size={28}/>
                         </button>
                     </div>
                 </div>
@@ -175,8 +175,8 @@ const Navbar = () => {
                         onClick={handlePhoneClick}
                         className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
                     >
-                        <Phone size={24} className="mr-2" />
-                        +61 454 550 34
+                        <Phone size={24} className="mr-2"/>
+                        +61 425 373 343
                     </button>
                 </div>
             )}
