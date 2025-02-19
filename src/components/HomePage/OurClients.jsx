@@ -63,8 +63,9 @@ const OurClients = () => {
                                     <img
                                         src={logo.src}
                                         alt={logo.alt}
-                                        className="max-h-full object-contain"
+                                        className="w-[200px] h-[120px] sm:w-[220px] sm:h-[130px] md:w-[240px] md:h-[140px] object-contain"
                                     />
+
                                 </div>
                             </SwiperSlide>
                         ))}
