@@ -12,7 +12,7 @@ import end_lease_cleaning from "../assets/service_images/individual_page/end_lea
 import common_area_cleaning from "../assets/service_images/individual_page/common_area_cleaning.jpg";
 import industrial_cleaning from "../assets/service_images/individual_page/industrial_cleaning.jpg";
 import construction_cleaning from "../assets/service_images/individual_page/construction_cleaning.jpg";
-import home_care_services from "../assets/service_images/individual_page/home_care.jpg";
+import home_care_services from "../assets/service_images/individual_page/home_care_services.jpg";
 
 //Icons
 import body_corporate_cleaning_icon from "../assets/service_images/icons/body_corporate_cleaning_icon.svg";
