@@ -271,18 +271,20 @@ export const services = [
     {
         id: "home-care-services",
         title: "Home Care Services",
-        subtitle: "Home Care Services Subtitle ",
+        subtitle: "Tailored Support for a Comfortable Home Environment",
         services: [
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
+            "Gardening & Landscaping",
+            "Lawn Mowing & Edging",
+            "Weeding & Pruning",
+            "Hedge Trimming",
+            "Planting & Irrigation",
+            "Mulching & Fertilisation",
+            "Home Maintenance",
         ],
-        description: "Home Care Services Description ",
-        subDescription: "We provide thorough post-construction cleaning, removing debris, dust, and ensuring a spotless, ready-to-occupy space.",
+        description:
+            "We are proud to partner with reputable providers, including Accent Home Care, to offer a comprehensive range of in-home support. Our main focus is on providing top-notch Gardening & Landscaping services—ensuring every outdoor space remains vibrant and well-kept. In addition, we assist with essential Home Maintenance tasks, giving you peace of mind that your home is always safe and comfortable. Our dedicated team works around your schedule, offering a personalized approach to keep your home looking its best inside and out.",
+        subDescription:
+            "Count on us for ongoing Gardening, Landscaping, and Home Maintenance support, delivered by caring professionals.",
         image: home_care_services,
         icon: home_care_services_icon,
     }
