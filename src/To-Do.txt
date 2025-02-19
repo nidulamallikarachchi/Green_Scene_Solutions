@@ -19,7 +19,7 @@ TODO:
                   * Home Care Services Page
                         --Gardening and landscaping
                         -- General Home Cleaning
-                        -- We are affilicated with a company that provides home care services
+                        -- We are affiliated with a company that provides home care services
                         -- Link -- https://accenthomecare.org.au/
                         -- Link -- https://www.agedcareguide.com.au/accent-home-care
 
