@@ -19,7 +19,7 @@ const ServiceDetails = () => {
                 className="relative w-full h-96 md:h-[34rem] flex items-center justify-center text-white text-center bg-cover bg-center"
                 style={{ backgroundImage: `url(${service.image})` }}
             >
-                <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"></div>
+                <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                 <h1 className="relative text-4xl md:text-5xl font-bold bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text px-4 py-2">
                     {service.title}
                 </h1>
