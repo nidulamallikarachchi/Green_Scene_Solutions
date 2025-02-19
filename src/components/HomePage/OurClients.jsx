@@ -16,6 +16,7 @@ import Select from '../../assets/our_clients/Select.png';
 import TheKnight from '../../assets/our_clients/TheKnight.png';
 import Tideways from '../../assets/our_clients/Tideway.jpg';
 import VictoriaBody from '../../assets/our_clients/VictoriaBody.png';
+import AccentHomeCare from '../../assets/our_clients/accent.jpeg';
 
 const clientLogos = [
     { src: Alliance, alt: 'Alliance' },
@@ -28,6 +29,7 @@ const clientLogos = [
     { src: TheKnight, alt: 'The Knight' },
     { src: Tideways, alt: 'Tideways' },
     { src: VictoriaBody, alt: 'Victoria Body' },
+    { src: AccentHomeCare, alt: 'Accent Home Care' },
 ];
 
 const OurClients = () => {
