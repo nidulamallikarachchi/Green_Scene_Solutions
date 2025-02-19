@@ -12,6 +12,7 @@ import end_lease_cleaning from "../assets/service_images/individual_page/end_lea
 import common_area_cleaning from "../assets/service_images/individual_page/common_area_cleaning.jpg";
 import industrial_cleaning from "../assets/service_images/individual_page/industrial_cleaning.jpg";
 import construction_cleaning from "../assets/service_images/individual_page/construction_cleaning.jpg";
+import home_care_services from "../assets/service_images/individual_page/placeholder-image.jpg";
 
 //Icons
 import body_corporate_cleaning_icon from "../assets/service_images/icons/body_corporate_cleaning_icon.svg";
@@ -27,6 +28,7 @@ import end_lease_cleaning_icon from "../assets/service_images/icons/end_lease_cl
 import common_area_cleaning_icon from "../assets/service_images/icons/common_area_cleaning_icon.svg";
 import industrial_cleaning_icon from "../assets/service_images/icons/industrial_cleaning_icon.svg";
 import construction_cleaning_icon from "../assets/service_images/icons/construction_cleaning_icon.svg";
+import home_care_services_icon from "../assets/service_images/icons/home_care_services_icon.svg";
 
 export const services = [
     {
@@ -265,5 +267,23 @@ export const services = [
         subDescription: "We provide thorough post-construction cleaning, removing debris, dust, and ensuring a spotless, ready-to-occupy space.",
         image: construction_cleaning,
         icon: construction_cleaning_icon,
+    },
+    {
+        id: "home-care-services",
+        title: "Home Care Services",
+        subtitle: "Home Care Services Subtitle ",
+        services: [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+        ],
+        description: "Home Care Services Description ",
+        subDescription: "We provide thorough post-construction cleaning, removing debris, dust, and ensuring a spotless, ready-to-occupy space.",
+        image: home_care_services,
+        icon: home_care_services_icon,
     }
 ];

@@ -17,7 +17,8 @@ const otherServices = [
     { id: "gardening-cleaning", name: "Gardening and Landscaping" },
     { id: "carpet-cleaning", name: "Carpet Steam Cleaning" },
     { id: "window-cleaning", name: "Window Cleaning" },
-    { id: "high-pressure-cleaning", name: "High-Pressure Washing" }
+    { id: "high-pressure-cleaning", name: "High-Pressure Washing" },
+    { id: "home-care-services", name: "Home-Care Services" }
 ];
 
 const Footer = () => {
