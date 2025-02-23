@@ -11,7 +11,7 @@ const Navbar = () => {
     const dropdownRef = useRef(null);
 
     const handlePhoneClick = () => {
-        window.location.href = "tel:+6145455034";
+        window.location.href = "tel:045455034";
     };
 
     const cleaningServices = services.filter(service =>
@@ -130,7 +130,7 @@ const Navbar = () => {
                             className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
                         >
                             <Phone size={18} className="mr-1"/>
-                            +61455455034
+                            0455 455 034
                         </button>
                     </div>
 
@@ -176,7 +176,7 @@ const Navbar = () => {
                         className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
                     >
                         <Phone size={24} className="mr-2"/>
-                        +61455455034
+                        0455 455 034
                     </button>
                 </div>
             )}

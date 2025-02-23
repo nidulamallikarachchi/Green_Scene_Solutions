@@ -46,10 +46,10 @@ const Contact = () => {
                         <p className="text-lg text-gray-700 flex justify-center items-center gap-2">
                             <strong>Phone:</strong>
                             <a
-                                href="tel:045455034"
+                                href="tel:0455455034"
                                 className="text-blue-600 hover:text-blue-700 transition"
                             >
-                                +61455455034
+                                0455 455 034
                             </a>
                         </p>
                         <p className="text-lg text-gray-700 flex justify-center items-center gap-2">
