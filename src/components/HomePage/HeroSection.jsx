@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import backgroundImage1 from '../../assets/project_images/background-1.jpeg';
 import backgroundImage2 from '../../assets/project_images/background-2.jpeg';
 import backgroundImage3 from '../../assets/project_images/background-3.jpg';
+import {Link} from "react-router-dom";
 
 const HeroSection = () => {
     const images = [backgroundImage1, backgroundImage2, backgroundImage3];
@@ -36,10 +37,10 @@ const HeroSection = () => {
                 <p className="text-lg md:text-xl mb-6">
                     Melbourne’s trusted cleaning experts for homes & businesses. Experience spotless spaces with our eco-friendly solutions!
                 </p>
-                <a href="tel:+61425373343"
-                   className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg text-lg shadow-lg transition">
-                    Call Now
-                </a>
+                <Link to="/contact"
+                      className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg text-lg shadow-lg transition">
+                    Get a Quote
+                </Link>
             </div>
         </section>
     );

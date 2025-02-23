@@ -49,7 +49,7 @@ const Contact = () => {
                                 href="tel:045455034"
                                 className="text-blue-600 hover:text-blue-700 transition"
                             >
-                                +61 45 455 034
+                                +61455455034
                             </a>
                         </p>
                         <p className="text-lg text-gray-700 flex justify-center items-center gap-2">

@@ -130,7 +130,7 @@ const Navbar = () => {
                             className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
                         >
                             <Phone size={18} className="mr-1"/>
-                            +61 425 373 343
+                            +61455455034
                         </button>
                     </div>
 
@@ -176,7 +176,7 @@ const Navbar = () => {
                         className="flex items-center bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors duration-300 ease-in-out px-4 py-2 rounded-md"
                     >
                         <Phone size={24} className="mr-2"/>
-                        +61 425 373 343
+                        +61455455034
                     </button>
                 </div>
             )}
