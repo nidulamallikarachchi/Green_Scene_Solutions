@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { services } from "../../utilities/ServicesData.jsx";
 import { HiCheckCircle } from "react-icons/hi";
 import { useNavigate } from "react-router-dom";
+import SEO from "../../components/SEO.jsx";
 
 const ServiceDetails = () => {
     const { id } = useParams();
@@ -14,6 +15,7 @@ const ServiceDetails = () => {
 
     return (
         <div>
+            <SEO title={`${service.title} - Green Scene`} description={service.subDescription} />
             {/* Hero Section */}
             <div
                 className="relative w-full h-96 md:h-[34rem] flex items-center justify-center text-white text-center bg-cover bg-center"

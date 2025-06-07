@@ -7,10 +7,12 @@ import OurClients from "../components/HomePage/OurClients.jsx"
 import ServicesGrid from "../components/HomePage/ServicesGrid.jsx";
 import CustomerTypes from "../components/HomePage/CustomerTypes.jsx";
 import WhatsappButton from "../utilities/WhatsappButton.jsx";
+import SEO from "../components/SEO.jsx";
 
 const Home = () => {
     return (
         <div>
+            <SEO title="Green Scene Property Maintenance" description="Professional cleaning services for homes and businesses across Melbourne." />
             <HeroSection />
             <WhyChooseUs />
             <ServicesGrid/>

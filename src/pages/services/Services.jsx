@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import { services } from "../../utilities/ServicesData.jsx";
+import SEO from "../../components/SEO.jsx";
 
 const Services = () => {
     return (
         <div className="max-w-7xl mx-auto px-6 py-12">
+            <SEO title="Services - Green Scene" description="Discover our range of professional cleaning solutions for residential and commercial properties." />
             {/* Heading */}
             <h1 className="text-4xl font-bold text-center text-gray-800 mb-10 relative">
                 Our Services
