@@ -63,6 +63,7 @@ const OurClients = () => {
                                     <img
                                         src={logo.src}
                                         alt={logo.alt}
+                                        loading="lazy"
                                         className="w-[200px] h-[120px] sm:w-[220px] sm:h-[130px] md:w-[240px] md:h-[140px] object-contain"
                                     />
 

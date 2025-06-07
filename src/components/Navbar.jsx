@@ -56,7 +56,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex items-center">
-                        <img src={logo} alt="Logo" className="h-10 w-10 mr-2" />
+                        <img src={logo} alt="Logo" loading="lazy" className="h-10 w-10 mr-2" />
                         <Link to="/" className="text-2xl font-bold">
                             <span className="text-blue-600">Green</span>
                             <span className="text-blue-600">Scene</span>

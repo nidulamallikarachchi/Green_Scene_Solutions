@@ -25,6 +25,7 @@ const ServicesGrid = () => {
                                 <img
                                     src={service.icon}
                                     alt={service.title}
+                                    loading="lazy"
                                     className="w-12 h-12 sm:w-14 sm:h-14 object-contain mb-3 group-hover:opacity-80 transition-all duration-300"
                                 />
                                 {/* Title */}

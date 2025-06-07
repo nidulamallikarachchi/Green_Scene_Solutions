@@ -21,6 +21,7 @@ const Services = () => {
                                 <img
                                     src={service.image}
                                     alt={service.title}
+                                    loading="lazy"
                                     className="w-full h-56 object-cover"
                                 />
                                 {/* Gradient Overlay */}
