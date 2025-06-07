@@ -10,3 +10,7 @@ Currently, two official plugins are available:
 ## Search Engine Optimization
 
 This project uses **react-helmet** to manage page titles and meta descriptions. Each page now includes an `<SEO>` component that sets relevant information for search engines. After installing dependencies (`npm install`), run the development server with `npm run dev` to preview the optimized pages locally.
+
+## Robots and Sitemap
+
+A `robots.txt` and `sitemap.xml` have been added to the `public/` directory. These files help search engines index your pages. Update the domain inside them if you deploy the site to a different URL.
