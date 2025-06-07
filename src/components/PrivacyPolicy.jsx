@@ -1,9 +1,10 @@
-import React from "react";
+import SEO from "./SEO.jsx";
 
 const PrivacyPolicy = () => {
     return (
         <div className="privacy-policy bg-gray-100 text-gray-800 py-10 px-4">
             <div className="container mx-auto max-w-4xl">
+                <SEO title="Privacy Policy - Green Scene" description="Learn how Green Scene Property Maintenance protects your privacy when you use our services." />
                 <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
                 <p className="mb-4">
                     At Green Scene Property Maintenance, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your information when you interact with our website or services.

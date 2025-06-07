@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import OurClients from "../components/HomePage/OurClients.jsx";
+import SEO from "../components/SEO.jsx";
 
 const Contact = () => {
     const formRef = useRef();
@@ -29,6 +30,7 @@ const Contact = () => {
 
     return (
         <div className="bg-gray-50 min-h-screen w-full overflow-x-hidden">
+            <SEO title="Contact - Green Scene" description="Get in touch with Green Scene Property Maintenance for a free cleaning quote." />
             {/* Contact Section */}
             <div className="max-w-4xl mx-auto px-4 mt-12 mb-12">
                 <div className="bg-white shadow-xl rounded-3xl p-8">
