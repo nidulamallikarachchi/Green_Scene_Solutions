@@ -11,6 +11,7 @@ const WhatsAppButton = () => {
                 <img
                     src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                     alt="WhatsApp"
+                    loading="lazy"
                     className="w-12 h-12"
                 />
             </div>
